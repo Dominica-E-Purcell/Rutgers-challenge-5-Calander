@@ -1,34 +1,7 @@
 // Wrap all code that interacts with the DOM in a call to jQuery to ensure that
 // the code isn't run until the browser has finished rendering all the elements
 // in the html.
-var saveButtonElement = $('#save-btn');
-var getTime = $('#currentDay');
-/* ORIGINAL ATTEMPT 
-//I thought declaring the myTime variable would get the dayjs into the header when it was called in the following function.
-var myTime = $('#currentDay');
-$(function () {
-    var workin9To5 = ['9am', '10am', '11am', '12pm', '1pm', '2pm', '3pm', '4pm', '5pm' n n]
-    myTime = dayjs().format('dddd, MMMM D YYYY, h:mm:ss')
-    if (myTime === workin9To5)
-        $.addClass('#present');
-    else if (myTime > workin9To5)
-        $.addClass('#past');
-    else (myTime < workin9To5)
-        $.addClass('#future');
 
-}
-// ATTEMPT 2
-function getTime() {
-var myTime = Date.now();
-var calenderTime = dayjs().format('dddd, MMMM D YYYY, h:mm:ss');
-if (myTime === calenderTime) {
-    $.addClass('#present');
-} 
-else if (myTime >= calenderTime || myTime <= calenderTime)
-        $.addClass('#past') || $.addClass('#future'); {
-return 
-    }
-}*/
     /*TODO: Add a listener for click events on the save button. This code should
      use the id in the containing time-block as a key to save the user input in
     local storage. HINT: What does `this` reference in the click listener
