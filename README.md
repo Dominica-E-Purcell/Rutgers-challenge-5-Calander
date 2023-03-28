@@ -1,2 +1,6 @@
 # Rutgers-challenge-5-Calander
-A calendar application that allows a user to track events within a day
+
+## Description
+
+This is a calendar application that allows a user to track events within a day. The obvious motivation for creating a dynamic color coded calender that is meant not only siaplay and adjust around the current time but save input of the user is to help with time management. Having a calender that at a glance tells the user what projects and commitments hold the highest priorty, which have passed and which have acts as an acessible method of keeping on top of task. If a user struggles with relating to a set time parameters having the red background indicate what is urgent and the green background show what there is still time to work on wouldn't keep the user beholded to the clock. On the other had having a large display of the time is convient for those who might need to put aside their phone to focus on work and find the tiny time display at the corner of larger screens to be inadequet. 
+I learned that trying to fiddle with with different aspects of the code even when they don't work is helpful. I also learned how useful a git ignore is for being able to sweep aside important but ultimately distracting and overwhelming amounts of start code/starter instruction/failed attempts. It feels good to have them near by but out of the way. 
