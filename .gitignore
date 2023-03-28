@@ -30,6 +30,13 @@ return
 }*/
 
 
+Taken out of README
+ My original thought when I was making my first two attempts in Javascript was to use something like the 'option value' to make a list and have the user manually confirm whether or not the time was passed present or future but that stemmed mostly from a nervousness around dayJS and date.now. After working on this project more I'm pretty sure I was wandering way off course with original idea. That being said as off as I was about my first thoughts on how to complete the challenge I think being able to use bootstrap to change simple parts like making the css recognize the current hour as alert and so on. 
+
+STARTER CODE/NOTES
+
+
+
     <!-- Use class for "past", "present", and "future" to apply styles to the
         time-block divs accordingly. The javascript will need to do this by
         adding/removing these classes on each div by comparing the hour in the

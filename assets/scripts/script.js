@@ -1,13 +1,13 @@
 $(function () {
 // heavy reliance on id as class can be added to elements later and then further appended together
-   var calenderListElementTime = $('#hour')
-   var calenderListElementText = $('#input-text')
-   var calenderListElementSaveButton = $('#save-btn')
-   var timeDisplay = $('#currentDay')
+   var calenderListElementTime = $('#hour', '.minimalist')
+   var calenderListElementText = $('#input-text', '.minimalist')
+   var calenderListElementSaveButton = $('#save-btn', '.minimalist')
+   var timeDisplay = $('#currentDay' , '.time-block')
    
    // taking the clutter from HTML and stream lining it with jQuery
    calenderListElementText.textarea('').addClass('col-8 col-md-10', 'description', 'row-3')
-   calenderListElementTime.attr('row', 'time-block').addClass('col-2 col-md-1', 'text-center', 'p-4');
+   calenderListElementTime.attr('row').addClass('col-2 col-md-1', 'text-center', 'p-4');
    calenderListElementSaveButton.on('click', localStorage).attr('<button></button>').addClass('col-2 col-md-1')
    timeDisplay.attr(dayjs().format('dddd, MMMM D YYYY, h:mm:ss'));
    
