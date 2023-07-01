@@ -16,6 +16,7 @@ $(function () {
    $("#14 .description").val(localStorage.getItem("14"))
    $("#15 .description").val(localStorage.getItem("15"))
    $("#16 .description").val(localStorage.getItem("16"))
+   $("#17 .description").val(localStorage.getItem("17"))
    var currentTime = dayjs().format("H")
 
    $(".time-block").each(function() {
