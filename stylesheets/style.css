@@ -30,18 +30,18 @@ body {
     border-top: 1px dashed #000000;
   }
   
-  section.past {
-    background-color: #d3d3d3;
+  .past {
+    background-color: #49edff;
     color: white;
   }
   
-  section.present {
-    background-color: #ff6961;
+  .present {
+    background-color: #6186ff;
     color: white;
   }
   
-  section.future {
-    background-color: #77dd77;
+  .future {
+    background-color: #5a0083;
     color: white;
   }
   
